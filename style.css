@@ -1,0 +1,78 @@
+/*                     Estilos basicos                               */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+
+}
+
+
+/*                 Estilos principales                      */
+
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Montserrat, sans-serif;
+    background: #B8E2C8;
+
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 320px;
+    border-radius: 20px;
+    color: #fff;
+    border-radius: 20px;
+    border-radius: 20px;
+    background: #99B2DD;
+    box-shadow:  26px 26px 7px #8297bc,
+                -26px -26px 7px #b0cdfe;
+
+}
+
+.count {
+
+    font-size: 5rem;
+
+}
+
+.btns {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+
+}
+
+button {
+
+    margin: 5px;
+    width: 70px;
+    height: 25px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+
+}
+
+span {
+
+    color: #2d6e9c;
+
+}
